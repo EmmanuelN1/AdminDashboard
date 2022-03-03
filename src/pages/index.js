@@ -8,13 +8,13 @@ import { FaStarOfLife } from 'react-icons/fa';
 import { FaRocketchat } from 'react-icons/fa';
 import { FaSearch } from 'react-icons/fa';
 import { TiWarningOutline } from 'react-icons/ti';
-import { FcSettings } from "react-icons/fc";
+import { FiSettings } from "react-icons/fi";
 import { MdMessage } from "react-icons/md";
 import { FcBusinesswoman } from "react-icons/fc";
 import Logo from "../assets/Logo.png";
 import Link from "next/link"
-import Banner from "../component/Banner";
-import Cards from "../component/Cards";
+import Banner from "../components/Banner";
+import Cards from "../components/Cards";
 export default function Home() {
   return (
     <div>
@@ -89,7 +89,7 @@ export default function Home() {
 
                   <div className="flex m-5 text-white mt-2 ">
                         <div>
-                            <FcSettings className="w-5 h-5"/>
+                            <FiSettings className="w-5 h-5"/>
                         </div>
                         <div className="mx-3 text-sm">Settings</div>
 
